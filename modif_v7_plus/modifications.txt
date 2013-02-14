@@ -1,0 +1,21 @@
+Les principales  modifications depuis v7 :
+
+4_11_2005 : index.php -> correction bug : affichage tp et td dans la partie de droite 
+4_11_2005 : carnet -> possibilité de cacher les trimestres 
+4_11_2005 : tables -> gc_agenda,gc_devoir,gc_devoir : correction taille des champs classe et site
+4_11_2005 : dernieres_connexion.php et modification.php -> ajout de la classe de l'élève
+16_11_2005 : agenda,cahier de texte -> les messages de type "à faire","DM" et "Devoir à venir" postés dans le cahier de texte apparaisent 
+             maintenant dans l'agenda ( des images ont été modifiées ) 
+18_11_2005 : correction d'un petit bug dans commentaire.php ( changement d'heure! )
+20_11_2005 : table gc_contenu_auto : champ url varchar 100 -> varchar 200
+30_12_2005 : ajout de FCKeditor
+31_12_2005 : page.php et site/page.php : correction d'un bug -> les styles s'appliquent maintenant aux 
+             contenus des divisions
+2_1_2006 : messages pour les classes -> modification de la tables gc_bloc_notes, de index.php, page/site/eleve/accueil.php et du dossier cahier_texte
+                                        + ajout de l'image messages.gif
+23_1_2006 : agenda/commentaire.php -> correction d'un bug : conservation de la classe après modification d'un commentaire
+31_1_2006 : carnet/choix_classe.php et trombi/trombi.php -> accès aux mots de passe des élèves
+31_1_2006 : carnet ... et page/site/eleve/notes.php : ->97 pour indiquer qu'un devoir est non rendu
+31_1_2006 : carnet ... -> troncature des noms des élèves pour l'affichage dans les tableaux
+3_8_2007 : Le compteur se décrémente après la connexion, puis la visite du professeur sur la page d'accueil
+3_9_2007 : table gc_devoir : champ id_devoir tinyint(3) -> int(10) ...après plusieurs années d'utilisation, le problème se posait !

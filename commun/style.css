@@ -1,0 +1,90 @@
+a:hover {
+	color: #FF6600;
+}
+
+.bordure {
+	border: 1px solid #000033;
+}
+
+.bordure_sous_titre {
+	border: 1px solid #000033;
+}
+
+.borduregrise {
+	border: 1px #CCCCCC solid;
+}
+
+.borduregauche {  
+	border-color: black black black #E1E1E1;
+	border-style: solid; border-top-width: 0px; 
+	border-right-width: 0px; 
+	border-bottom-width: 0px; 
+	border-left-width: 1px}
+	
+.borduredroite {  
+	border-color: black #E1E1E1 black black;
+	border-style: solid; border-top-width: 0px; 
+	border-right-width: 1px; 
+	border-bottom-width: 0px; 
+	border-left-width: 0px}
+
+.borduredroitebleue {
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: black;
+	border-right-color: #000066;
+	border-bottom-color: black;
+	border-left-color: black;
+}
+
+.borduregauchebleue {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: black;
+	border-right-color: #000000;
+	border-bottom-color: black;
+	border-left-color: #000066;
+}
+
+.borduregauchebleue {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-left-color: #000066;
+}
+
+.bordurehaute {
+	border-top-width: 1px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #EBEBEB;
+	border-right-color: #EBEBEB;
+	border-bottom-color: #EBEBEB;
+	border-left-color: #EBEBEB;
+}
+
+
+.gras {font-weight: bold;}
+.italique {font-style: italic;}
